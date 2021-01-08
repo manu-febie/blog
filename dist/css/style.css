@@ -52,6 +52,14 @@ article {
     padding: 1rem 0;
 }
 
+.row {
+    display: flex;
+}
+
+.row .col-half {
+    flex: 0 0 calc(100% / 12 * 6)
+}
+
 .footer {
     background-color: #212121;
     height: 30vh;
